@@ -12,9 +12,9 @@ body {
     flex-direction: row; /* määritellään flexin suunnaksi row (rivi) */
     flex-wrap: wrap; /* vanhemman lapset voivat rivittyä (allekkain)*/
 }
-body > * {  /* bodyn lapset */
-    flex-grow: 1;  /* jos flex-grow on lapsissa sama --> lapset yhtä leveitä*/
-    flex-basis: 100%; /* lapsen minimileveys */
+body > * {
+    flex-grow: 1;
+    flex-basis: 100%;
 }
 
 body section, 
